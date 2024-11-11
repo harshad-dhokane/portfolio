@@ -6,6 +6,19 @@
         padding-left: 0;
         padding-right: 0;
     }
+    @media (max-width: 576px) {
+    .navbar-nav a {
+        padding: 5px; /* Smaller padding for links */
+    }
+    .social-links button {
+        font-size: 1rem; /* Adjust icon sizes */
+        padding: 10px; /* Adjust padding for mobile */
+    }
+    .contact-form .form-control {
+        padding: 8px; /* Smaller padding for input fields */
+    }
+}
+
     
     /* Adjust font sizes and spacing for smaller screens */
     .navbar-nav a {
@@ -16,7 +29,7 @@
     .progress-card, .education-card {
         padding: 10% 5%; /* Decrease padding for smaller screens */
     }
-}
+
 
 
 * {
@@ -413,18 +426,6 @@ footer .link-group a:hover{
     background-color: #000000;
 }
 
-@media (max-width: 576px) {
-    .navbar-nav a {
-        padding: 5px; /* Smaller padding for links */
-    }
-    .social-links button {
-        font-size: 1rem; /* Adjust icon sizes */
-        padding: 10px; /* Adjust padding for mobile */
-    }
-    .contact-form .form-control {
-        padding: 8px; /* Smaller padding for input fields */
-    }
-}
 
 
 /* ................................................ */
