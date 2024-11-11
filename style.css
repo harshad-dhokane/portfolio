@@ -7,9 +7,23 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     overflow-x: hidden;
-    
+    width:100%;
+    height:100%;
+    margin: 0;
+        padding: 0;
     
 }
+
+
+ img, .container {
+        max-width: 100%;
+        height: auto;
+    }
+
+.content-wrapper, .main-section {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
 
 /* styling menu icon */
