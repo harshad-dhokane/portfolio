@@ -157,14 +157,14 @@ body{
 }
 .progress-card{
     /* align-items:center ; */
-    padding: 10% 10% 10% 6%;
+    padding: 10% 10% 10% 8%;
     background-color: #fff;
     text-align: center;
     border-radius: 10%;
     /* display: flex; */
     align-items: center;
     justify-content: center;
-/*     width: 155px; */
+    width: 160px; 
 }
 .progress-card:hover{
     transform: scale(1.1,1.1);
