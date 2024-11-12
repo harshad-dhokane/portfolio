@@ -164,7 +164,7 @@ body{
     /* display: flex; */
     align-items: center;
     justify-content: center;
-    width: 152px; 
+    width: 157px; 
 }
 .progress-card:hover{
     transform: scale(1.1,1.1);
